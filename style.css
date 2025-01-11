@@ -42,17 +42,14 @@ main {
     margin-bottom: 12px;
 }
 
-#title1, #title2 {
+.header h1 {
     font-family: 'Poppins', serif;
     font-size: 24px;
     text-align: center;
-}
-
-#title1 {
     font-weight: 200;
 }
 
-#title2 {
+.header span {
     font-weight: 700;
 }
 
@@ -127,16 +124,16 @@ main {
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         align-items: center;
-        gap: 16px;
+        gap: 24px;
     }
-    #title1, #title2 {
+    .header h1 {
         font-size: 40px;
     }
     .header p {
         font-size: 18px;
     }
     .card {
-        margin-bottom: 16px;
+        margin-bottom: 24px;
     }
     footer {
         margin-top: 24px;
